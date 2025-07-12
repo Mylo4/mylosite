@@ -1,0 +1,205 @@
+/* Wiki Page Styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(26, 215, 111, 0.3);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  background: rgba(26, 215, 111, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(26, 215, 111, 0.2);
+}
+
+.feature-card h3 {
+  color: #1ad76f;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.craft-recipe {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border: 1px solid rgba(26, 215, 111, 0.3);
+}
+
+.craft-recipe h4 {
+  color: #1ad76f;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.recipe-ingredients {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin: 1rem 0;
+  max-width: 200px;
+}
+
+.ingredient {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(26, 215, 111, 0.4);
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-arrow {
+  font-size: 2rem;
+  color: #1ad76f;
+  margin: 0 1rem;
+}
+
+.recipe-result {
+  background: rgba(26, 215, 111, 0.2);
+  border: 2px solid #1ad76f;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.steps {
+  list-style: none;
+  counter-reset: step-counter;
+}
+
+.steps li {
+  counter-increment: step-counter;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid #1ad76f;
+  position: relative;
+}
+
+.highlight {
+  background: linear-gradient(120deg, rgba(26, 215, 111, 0.3) 0%, rgba(26, 215, 111, 0.1) 100%);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.warning {
+  background: rgba(255, 193, 7, 0.2);
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #ffc107;
+}
+
+.info {
+  background: rgba(33, 150, 243, 0.2);
+  border: 1px solid #2196F3;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #2196F3;
+}
+
+.success {
+  background: rgba(26, 215, 111, 0.2);
+  border: 1px solid #1ad76f;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #1ad76f;
+}
+
+.code-block {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(26, 215, 111, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.code-block code {
+  color: #1ad76f;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(45deg, #1ad76f, #18c265);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #18c265, #1ad76f);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(26, 215, 111, 0.4);
+}
+
+.guide-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.guide-content.active {
+  max-height: 2000px;
+  padding: 2rem;
+}
+
+.guide-step {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-left: 4px solid #1ad76f;
+}
+
+.guide-step h4 {
+  color: #1ad76f;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

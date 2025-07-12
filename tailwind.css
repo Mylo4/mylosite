@@ -1,0 +1,221 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --localhost-IBM-plex-sans-bold-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-IBM-plex-sans-bold-font-size: 25px;
+  --localhost-IBM-plex-sans-bold-font-style: normal;
+  --localhost-IBM-plex-sans-bold-font-weight: 700;
+  --localhost-IBM-plex-sans-bold-letter-spacing: 0px;
+  --localhost-IBM-plex-sans-bold-line-height: normal;
+  --localhost-IBM-plex-sans-regular-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-IBM-plex-sans-regular-font-size: 14px;
+  --localhost-IBM-plex-sans-regular-font-style: normal;
+  --localhost-IBM-plex-sans-regular-font-weight: 400;
+  --localhost-IBM-plex-sans-regular-letter-spacing: 0px;
+  --localhost-IBM-plex-sans-regular-line-height: 26px;
+  --localhost-semantic-button-font-family: "Arial", Helvetica;
+  --localhost-semantic-button-font-size: 20px;
+  --localhost-semantic-button-font-style: normal;
+  --localhost-semantic-button-font-weight: 700;
+  --localhost-semantic-button-letter-spacing: 0px;
+  --localhost-semantic-button-line-height: normal;
+  --localhost-semantic-heading-1-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-semantic-heading-1-font-size: 50px;
+  --localhost-semantic-heading-1-font-style: normal;
+  --localhost-semantic-heading-1-font-weight: 700;
+  --localhost-semantic-heading-1-letter-spacing: 0px;
+  --localhost-semantic-heading-1-line-height: normal;
+  --localhost-semantic-heading-2-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-semantic-heading-2-font-size: 48px;
+  --localhost-semantic-heading-2-font-style: normal;
+  --localhost-semantic-heading-2-font-weight: 700;
+  --localhost-semantic-heading-2-letter-spacing: 0px;
+  --localhost-semantic-heading-2-line-height: 72px;
+  --localhost-semantic-heading-2-underline-font-family: "IBM Plex Sans",
+    Helvetica;
+  --localhost-semantic-heading-2-underline-font-size: 27px;
+  --localhost-semantic-heading-2-underline-font-style: normal;
+  --localhost-semantic-heading-2-underline-font-weight: 700;
+  --localhost-semantic-heading-2-underline-letter-spacing: 0px;
+  --localhost-semantic-heading-2-underline-line-height: normal;
+  --localhost-semantic-heading-3-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-semantic-heading-3-font-size: 17px;
+  --localhost-semantic-heading-3-font-style: normal;
+  --localhost-semantic-heading-3-font-weight: 700;
+  --localhost-semantic-heading-3-letter-spacing: 0px;
+  --localhost-semantic-heading-3-line-height: normal;
+  --localhost-semantic-item-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-semantic-item-font-size: 16px;
+  --localhost-semantic-item-font-style: normal;
+  --localhost-semantic-item-font-weight: 400;
+  --localhost-semantic-item-letter-spacing: 0px;
+  --localhost-semantic-item-line-height: normal;
+  --localhost-semantic-link-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-semantic-link-font-size: 20px;
+  --localhost-semantic-link-font-style: normal;
+  --localhost-semantic-link-font-weight: 700;
+  --localhost-semantic-link-letter-spacing: 0px;
+  --localhost-semantic-link-line-height: normal;
+  --localhost-semantic-link-upper-font-family: "IBM Plex Sans", Helvetica;
+  --localhost-semantic-link-upper-font-size: 10px;
+  --localhost-semantic-link-upper-font-style: normal;
+  --localhost-semantic-link-upper-font-weight: 700;
+  --localhost-semantic-link-upper-letter-spacing: 0px;
+  --localhost-semantic-link-upper-line-height: normal;
+  --pepeland-net-inter-regular-font-family: "Inter", Helvetica;
+  --pepeland-net-inter-regular-font-size: 14px;
+  --pepeland-net-inter-regular-font-style: normal;
+  --pepeland-net-inter-regular-font-weight: 400;
+  --pepeland-net-inter-regular-letter-spacing: 0px;
+  --pepeland-net-inter-regular-line-height: 20px;
+  --pepeland-net-inter-semi-bold-font-family: "Inter", Helvetica;
+  --pepeland-net-inter-semi-bold-font-size: 14px;
+  --pepeland-net-inter-semi-bold-font-style: normal;
+  --pepeland-net-inter-semi-bold-font-weight: 600;
+  --pepeland-net-inter-semi-bold-letter-spacing: 0px;
+  --pepeland-net-inter-semi-bold-line-height: 20px;
+  --pepeland-net-manrope-extrabold-font-family: "Manrope", Helvetica;
+  --pepeland-net-manrope-extrabold-font-size: 72px;
+  --pepeland-net-manrope-extrabold-font-style: normal;
+  --pepeland-net-manrope-extrabold-font-weight: 800;
+  --pepeland-net-manrope-extrabold-letter-spacing: -3.5999999046325684px;
+  --pepeland-net-manrope-extrabold-line-height: 72px;
+  --pepeland-net-semantic-button-font-family: "Inter", Helvetica;
+  --pepeland-net-semantic-button-font-size: 16px;
+  --pepeland-net-semantic-button-font-style: normal;
+  --pepeland-net-semantic-button-font-weight: 500;
+  --pepeland-net-semantic-button-letter-spacing: 0px;
+  --pepeland-net-semantic-button-line-height: 24px;
+  --pepeland-net-semantic-link-font-family: "Inter", Helvetica;
+  --pepeland-net-semantic-link-font-size: 16px;
+  --pepeland-net-semantic-link-font-style: normal;
+  --pepeland-net-semantic-link-font-weight: 500;
+  --pepeland-net-semantic-link-letter-spacing: 0px;
+  --pepeland-net-semantic-link-line-height: 24px;
+  --spworlds-ru-segoe-UI-bold-font-family: "Segoe UI", Helvetica;
+  --spworlds-ru-segoe-UI-bold-font-size: 20px;
+  --spworlds-ru-segoe-UI-bold-font-style: normal;
+  --spworlds-ru-segoe-UI-bold-font-weight: 700;
+  --spworlds-ru-segoe-UI-bold-letter-spacing: 0px;
+  --spworlds-ru-segoe-UI-bold-line-height: 28px;
+  --spworlds-ru-semantic-button-font-family: "Segoe UI", Helvetica;
+  --spworlds-ru-semantic-button-font-size: 18px;
+  --spworlds-ru-semantic-button-font-style: normal;
+  --spworlds-ru-semantic-button-font-weight: 400;
+  --spworlds-ru-semantic-button-letter-spacing: 0px;
+  --spworlds-ru-semantic-button-line-height: 28px;
+  --spworlds-ru-semantic-heading-1-font-family: "Segoe UI", Helvetica;
+  --spworlds-ru-semantic-heading-1-font-size: 60px;
+  --spworlds-ru-semantic-heading-1-font-style: normal;
+  --spworlds-ru-semantic-heading-1-font-weight: 400;
+  --spworlds-ru-semantic-heading-1-letter-spacing: 0px;
+  --spworlds-ru-semantic-heading-1-line-height: 60px;
+  --spworlds-ru-semantic-heading-2-font-family: "Segoe UI", Helvetica;
+  --spworlds-ru-semantic-heading-2-font-size: 24px;
+  --spworlds-ru-semantic-heading-2-font-style: normal;
+  --spworlds-ru-semantic-heading-2-font-weight: 700;
+  --spworlds-ru-semantic-heading-2-letter-spacing: 0px;
+  --spworlds-ru-semantic-heading-2-line-height: 32px;
+  --spworlds-ru-semantic-heading-3-font-family: "Segoe UI Emoji", Helvetica;
+  --spworlds-ru-semantic-heading-3-font-size: 18px;
+  --spworlds-ru-semantic-heading-3-font-style: normal;
+  --spworlds-ru-semantic-heading-3-font-weight: 400;
+  --spworlds-ru-semantic-heading-3-letter-spacing: 0px;
+  --spworlds-ru-semantic-heading-3-line-height: 28px;
+  --spworlds-ru-semantic-link-font-family: "Segoe UI", Helvetica;
+  --spworlds-ru-semantic-link-font-size: 24px;
+  --spworlds-ru-semantic-link-font-style: normal;
+  --spworlds-ru-semantic-link-font-weight: 700;
+  --spworlds-ru-semantic-link-letter-spacing: 0px;
+  --spworlds-ru-semantic-link-line-height: 32px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

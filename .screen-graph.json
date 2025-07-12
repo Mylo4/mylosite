@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/ElementDefault/ElementDefault.tsx",
+      "label": "ElementDefault",
+      "routes": [
+        "/"
+      ],
+      "dataModelId": "2129:233",
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/OfferAgreement/OfferAgreement.tsx",
+      "label": "OfferAgreement",
+      "routes": [
+        "/offer-agreement"
+      ]
+    },
+    {
+      "id": "src/screens/PrivacyPolicy/PrivacyPolicy.tsx",
+      "label": "PrivacyPolicy",
+      "routes": [
+        "/privacy-policy"
+      ]
+    },
+    {
+      "id": "src/screens/MapPage/MapPage.tsx",
+      "label": "MapPage",
+      "routes": [
+        "/map"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx",
+      "label": "WikiLayout",
+      "routes": [
+        "/wiki"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/sections/WikiInfo.tsx",
+      "label": "WikiInfo",
+      "routes": [
+        "info"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/sections/WikiRules.tsx",
+      "label": "WikiRules",
+      "routes": [
+        "rules"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/sections/WikiFeatures.tsx",
+      "label": "WikiFeatures",
+      "routes": [
+        "features"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/sections/WikiCrafts.tsx",
+      "label": "WikiCrafts",
+      "routes": [
+        "crafts"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/sections/WikiGuides.tsx",
+      "label": "WikiGuides",
+      "routes": [
+        "guides"
+      ]
+    },
+    {
+      "id": "src/screens/WikiPage/sections/WikiMods.tsx",
+      "label": "WikiMods",
+      "routes": [
+        "mods"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/ElementDefault/ElementDefault.tsx:44:10-to-src/screens/MapPage/MapPage.tsx",
+      "source": "src/screens/ElementDefault/ElementDefault.tsx",
+      "target": "src/screens/MapPage/MapPage.tsx",
+      "data": {
+        "viaRoute": "/map",
+        "trigger": {
+          "element": "<Link to=\"/map\" className=\"text-[#a7add2] hover:text-white text-sm font-medium font-['Poppins',Helvetica] transition-colors\">\n            Карта\n          </Link>",
+          "line": 44,
+          "endLine": 46,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/ElementDefault/ElementDefault.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/OfferAgreement/OfferAgreement.tsx:9:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/OfferAgreement/OfferAgreement.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link \n            to=\"/\" \n            className=\"text-[#1ad76f] hover:text-white transition-colors flex items-center gap-2 mb-6\"\n          >\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\">\n              <path d=\"m15 18-6-6 6-6\"/>\n            </svg>\n            Вернуться на главную\n          </Link>",
+          "line": 9,
+          "endLine": 17,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/OfferAgreement/OfferAgreement.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/PrivacyPolicy/PrivacyPolicy.tsx:9:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/PrivacyPolicy/PrivacyPolicy.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link \n            to=\"/\" \n            className=\"text-[#1ad76f] hover:text-white transition-colors flex items-center gap-2 mb-6\"\n          >\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\">\n              <path d=\"m15 18-6-6 6-6\"/>\n            </svg>\n            Вернуться на главную\n          </Link>",
+          "line": 9,
+          "endLine": 17,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/PrivacyPolicy/PrivacyPolicy.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/MapPage/MapPage.tsx:24:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/MapPage/MapPage.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\" className=\"flex items-center\">\n            <img \n              src=\"https://c.animaapp.com/PyecxKQm/img/soap-%282%29-3.png\" \n              alt=\"Логотип Мыло\" \n              className=\"h-8 w-auto mr-3\"\n            />\n            <span className=\"text-[#1ad76f] font-semibold text-lg\">Мыло</span>\n          </Link>",
+          "line": 24,
+          "endLine": 31,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/MapPage/MapPage.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/MapPage/MapPage.tsx:34:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/MapPage/MapPage.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\" className=\"text-[#a7add2] hover:text-white text-sm font-medium font-['Poppins',Helvetica] transition-colors\">\n            Главная\n          </Link>",
+          "line": 34,
+          "endLine": 36,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/MapPage/MapPage.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/MapPage/MapPage.tsx:37:10-to-src/screens/WikiPage/WikiLayout.tsx",
+      "source": "src/screens/MapPage/MapPage.tsx",
+      "target": "src/screens/WikiPage/WikiLayout.tsx",
+      "data": {
+        "viaRoute": "/wiki",
+        "trigger": {
+          "element": "<Link to=\"/wiki\" className=\"text-[#a7add2] hover:text-white text-sm font-medium font-['Poppins',Helvetica] transition-colors\">\n            Вики\n          </Link>",
+          "line": 37,
+          "endLine": 39,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/MapPage/MapPage.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/MapPage/MapPage.tsx:40:10-to-src/screens/MapPage/MapPage.tsx",
+      "source": "src/screens/MapPage/MapPage.tsx",
+      "target": "src/screens/MapPage/MapPage.tsx",
+      "data": {
+        "viaRoute": "/map",
+        "trigger": {
+          "element": "<Link to=\"/map\" className=\"text-[#1ad76f] hover:text-white text-sm font-medium font-['Poppins',Helvetica] transition-colors\">\n            Карта\n          </Link>",
+          "line": 40,
+          "endLine": 42,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/MapPage/MapPage.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/MapPage/MapPage.tsx:45:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/MapPage/MapPage.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\" className=\"bg-[#1ad76f] hover:bg-[#18c265] text-white px-6 py-2 rounded-full text-sm font-semibold font-['Poppins',Helvetica] transition-colors\">\n            Купить проходку\n          </Link>",
+          "line": 45,
+          "endLine": 47,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/MapPage/MapPage.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx:23:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/WikiPage/WikiLayout.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\" className=\"flex items-center\">\n            <img \n              src=\"https://c.animaapp.com/PyecxKQm/img/soap-%282%29-3.png\" \n              alt=\"Логотип Мыло\" \n              className=\"h-8 w-auto mr-3\"\n            />\n            <span className=\"text-[#1ad76f] font-semibold text-lg\">Мыло Вики</span>\n          </Link>",
+          "line": 23,
+          "endLine": 30,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/WikiPage/WikiLayout.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx:33:10-to-src/screens/WikiPage/WikiLayout.tsx",
+      "source": "src/screens/WikiPage/WikiLayout.tsx",
+      "target": "src/screens/WikiPage/WikiLayout.tsx",
+      "data": {
+        "viaRoute": "/wiki",
+        "trigger": {
+          "element": "<Link to=\"/wiki\" className=\"text-[#1ad76f] hover:text-white text-sm font-medium font-['Poppins',Helvetica] transition-colors\">\n            Вики\n          </Link>",
+          "line": 33,
+          "endLine": 35,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/WikiPage/WikiLayout.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx:36:10-to-src/screens/MapPage/MapPage.tsx",
+      "source": "src/screens/WikiPage/WikiLayout.tsx",
+      "target": "src/screens/MapPage/MapPage.tsx",
+      "data": {
+        "viaRoute": "/map",
+        "trigger": {
+          "element": "<Link to=\"/map\" className=\"text-[#a7add2] hover:text-white text-sm font-medium font-['Poppins',Helvetica] transition-colors\">\n            Карта\n          </Link>",
+          "line": 36,
+          "endLine": 38,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/WikiPage/WikiLayout.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx:44:10-to-src/screens/ElementDefault/ElementDefault.tsx",
+      "source": "src/screens/WikiPage/WikiLayout.tsx",
+      "target": "src/screens/ElementDefault/ElementDefault.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\" className=\"bg-[#1ad76f] hover:bg-[#18c265] text-white px-6 py-2 rounded-full text-sm font-semibold font-['Poppins',Helvetica] transition-colors\">\n            Купить проходку\n          </Link>",
+          "line": 44,
+          "endLine": 46,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/WikiPage/WikiLayout.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx:96:14-to-src/screens/OfferAgreement/OfferAgreement.tsx",
+      "source": "src/screens/WikiPage/WikiLayout.tsx",
+      "target": "src/screens/OfferAgreement/OfferAgreement.tsx",
+      "data": {
+        "viaRoute": "/offer-agreement",
+        "trigger": {
+          "element": "<Link to=\"/offer-agreement\" className=\"text-[#a7add2] hover:text-white text-sm transition-colors\">\n                Договор оферты\n              </Link>",
+          "line": 96,
+          "endLine": 98,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/WikiPage/WikiLayout.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/WikiPage/WikiLayout.tsx:99:14-to-src/screens/PrivacyPolicy/PrivacyPolicy.tsx",
+      "source": "src/screens/WikiPage/WikiLayout.tsx",
+      "target": "src/screens/PrivacyPolicy/PrivacyPolicy.tsx",
+      "data": {
+        "viaRoute": "/privacy-policy",
+        "trigger": {
+          "element": "<Link to=\"/privacy-policy\" className=\"text-[#a7add2] hover:text-white text-sm transition-colors\">\n                Политика конфиденциальности\n              </Link>",
+          "line": 99,
+          "endLine": 101,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/WikiPage/WikiLayout.tsx"
+        }
+      }
+    }
+  ]
+}
